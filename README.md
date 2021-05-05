@@ -28,13 +28,11 @@ ii. Uniform Initialization - A random value is chosen such that it follows a uni
 iii.Xavier Normal Initialization - A random value is chosen such that it follows a normal distribution with a mean of 0 and standard deviation (σ) = sqrt (2 / (fan\_in + fan\_out)), where fan\_in is the number of input units given to the neuron and fan\_out is the number of output units.
 
 iv. Xavier Uniform Initialization - A random value is chosen such that it follows a uniform distribution, in the range [-y, y], where
-
 y = sqrt (6) / sqrt (fan\_in + fan\_out), where fan\_in is the number of input units given to the neuron and fan\_out is the number of output units.
 
 v. He Normal Initialization - A random value is chosen such that it follows a normal distribution with a mean of 0 and standard deviation (σ) = sqrt (2 / (fan\_in) ), where fan\_in is the number of input units given to the neuron.
 
 vi. He Uniform Initialization - A random value is chosen such that it follows a uniform distribution, in the range [-y, y], where
-
 y = sqrt (6) / sqrt (fan\_in), where fan\_in is the number of input units given to the neuron.
 
 4.) What is &quot;loss&quot; in a neural network?
