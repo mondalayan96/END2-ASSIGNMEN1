@@ -8,6 +8,8 @@ Ans- A neural network neuron is a mathematical function based on the model of a 
 Let there be n inputs to the neuron, the output can be represented as : 
 
    <img src="https://render.githubusercontent.com/render/math?math=z = \tanh ( \sum_{i=1}^{n}  {w}_{i} {x}_{i} + b )">
+
+
 where , b = bias of the neuron
 
 2.) What is the use of the learning rate?
