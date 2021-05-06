@@ -35,7 +35,18 @@ The most used weight initialization techniques are described as follows:
 
 4.) What is &quot;loss&quot; in a neural network?
 
-Ans - Loss is the prediction error of the neural network. Loss is used to calculate the gradients the gradients are used to update the weight of the neural network.
+The Loss Function is one of the important components of Neural Networks. Loss is nothing but a prediction error of Neural Net. And the method to calculate the loss is called Loss Function. In simple words, the Loss is used to calculate the gradients. And gradients are used to update the weights of the Neural Net. This is how a Neural Net is trained.
+
+Few of the essential loss functions, which could be used for most of the objectives.
+
+- **Mean Squared Error (MSE)** - **MSE**  loss is used for regression tasks. As the name suggests, this loss is calculated by taking the mean of squared differences between actual(target) and predicted values.
+
+- **Binary Crossentropy (BCE) – BCE** loss is used for the binary classification tasks. If you are using BCE loss function, you just need one output node to classify the data into two classes. The output value should be passed through a _sigmoid _activation function and the range of output is (0 – 1).
+
+- **Categorical Crossentropy (CC)** – When we have a multi-class classification task, one of the loss function you can go ahead is this one. If you are using CCE loss function, there must be the same number of output nodes as the classes. And the final layer output should be passed through a _softmax_ activation so that each node output a probability value between (0–1).
+
+- **Sparse Categorical Crossentropy (SCC)** – This loss function is almost similar to CCE except for one change. When we are using SCCE loss function, you do not need to one hot encode the target vector. If the target image is of a cat, you simply pass 0, otherwise 1. Basically, whichever the class is you just pass the index of that class.
+
 
 5.) What is &quot;chain rule&quot; in gradient flow?
 
