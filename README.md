@@ -6,7 +6,8 @@ Question 3:
 Ans- A neural network neuron is a mathematical function based on the model of a biological neuron. It is the fundamental &#39;memory storage&#39; or a &#39;signal&#39; unit of a neural network. A neuron consists of a set of weights(wi) and receives a set of inputs(xi). The neuron computes the weighted sum of these inputs, and this sum is passed through a non-linear function called activation function to generate the output. The output of the neuron can be sent as input to the neurons of another layer or it could be the actual output of the neural network.
 
 Let there be n inputs to the neuron, the output can be represented as :
-![](eqn.png)
+
+<p align="center"><img src="https://render.githubusercontent.com/render/math?math=z = \tanh ( \sum_{i=1}^{n}  {w}_{i} {x}_{i} %20+ {b} )"> </p>
 where , b = bias of the neuron
 
 2.) What is the use of the learning rate?
