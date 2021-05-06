@@ -37,7 +37,7 @@ The most used weight initialization techniques are described as follows:
 
 Ans - Loss is the prediction error of the neural network. Loss is used to calculate the gradients the gradients are used to update the weight of the neural network.
 
-5) What is &quot;chain rule&quot; in gradient flow?
+5.) What is &quot;chain rule&quot; in gradient flow?
 
 Ans - In a neural network, the loss is back propagated to adjust the weights of the network so as to minimize the difference between the resultant output vector and the target vector. This is done by computing the gradient of the loss function with respect to the network parameters. As we know, there are several layers in a neural network and the loss is computed at the final layer. To update the weights of all the layers, the gradient of the loss needs to flow to the initial layers. The chain rule associates the loss with the parameters in the hidden layers.
 
