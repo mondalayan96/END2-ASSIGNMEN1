@@ -7,8 +7,7 @@ Ans- A neural network neuron is a mathematical function based on the model of a 
 
 Let there be n inputs to the neuron, the output can be represented as :
 
-<img src="https://render.githubusercontent.com/render/math?math=z = \tanh ( \sum_{i=1}^{n}  {w}_{i} {x}_{i} + b )">
-
+<p align="center"><img src="https://render.githubusercontent.com/render/math?math=z = \tanh ( \sum_{i=1}^{n}  {w}_{i} {x}_{i} + b )"> </p>
 where , b = bias of the neuron
 
 2.) What is the use of the learning rate?
@@ -54,7 +53,9 @@ Ans - In a neural network, the loss is back propagated to adjust the weights of 
 
 For the final layer l, the gradient of the loss L computed using chain rule is –
 
+  <p align="center"> <img src="https://render.githubusercontent.com/render/math?math=\frac{\partial L  }{\partial {w}^{l}}  = \frac{\partial L}{\partial {a}^{l}} \frac{\partial {a}^{l}}{\partial {z}^{l}} \frac{\partial {z}^{l}}{\partial {w}^{l}}"> </p>
 For a hidden layer l, the gradient is further broken-down using chain rule in the following way –
 
+<p align="center"> <img src="https://render.githubusercontent.com/render/math?math=\frac{\partial L  }{\partial {a}^{l}}  = \sum \frac{\partial L}{\partial {a}^{k}} \frac{\partial {a}^{k}}{\partial {z}^{k}} \frac{\partial {z}^{k}}{\partial {a}^{l}}"> </p>
 Where the layers in between the final layer and the layer for which the gradient is being computed, a is the forward output of the neuron before applying activation function, z is the forward output of the neuron after applying activation function.
 
