@@ -47,4 +47,3 @@ For a hidden layer l, the gradient is further broken-down using chain rule in th
 
 Where the layers in between the final layer and the layer for which the gradient is being computed, a is the forward output of the neuron before applying activation function, z is the forward output of the neuron after applying activation function.
 
-Different techniques of weight initialization are as follows:
